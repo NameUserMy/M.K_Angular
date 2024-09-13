@@ -1,0 +1,25 @@
+#info {
+    position: relative;
+    perspective: 1500px;
+    height: 250px;
+    width: 200px;
+   
+    
+}
+
+
+.biography{
+    height: 250px;
+    width: 200px;
+    background-image: url("../../assets/Bill_Gates.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray,-2px -2px 2px gray;
+    transform-style: preserve-3d;
+    transform:rotateX(0deg); 
+   
+}
+
+
