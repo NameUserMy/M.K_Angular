@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="add-info">
+        <div *ngIf="withQuotation">
+            <input required="required" type="text" placeholder="Enter quotation" [(ngModel)]="quotation" />
+            <span (click)="AddQuotation()" class="add-quotation"></span>
+        </div>
+        <div *ngIf="whithLink">
+           <input required="required" type="text" placeholder="Enter Link"  [(ngModel)]="link" />
+           <input required="required" type="text" placeholder="Enter Link name" [(ngModel)]="nameLink" /> 
+           <span (click)="AddLink()" class="add-quotation"></span>
+        </div>
+        
+    </div>
+    <div class="menu">
+        <span (click)="Biography()">Biography</span>
+        <span (click)="Quotation()">Quotation</span>
+        <span (click)="Link()">Links</span>
+    </div>
+    <div id="infoMain" [ngSwitch]="view" >
+        <ng-template ngSwitchCase="quotations">
+            <quotation [quotations]="quotations" ></quotation>
+        </ng-template>
+
+        <ng-template ngSwitchCase="biography">
+            <biography></biography>
+        </ng-template>
+
+        <ng-template ngSwitchCase="links">
+            <links [linkModels]="linkModels"></links>
+        </ng-template>
+        
+    </div>
+    <div class="biograpyC" >
+        <div *ngIf="whithBiography">
+            William Henry Gates III (born October 28, 1955) is an American business magnate best known 
+            for co-founding the software company Microsoft with his childhood friend Paul Allen. 
+            During his career at Microsoft, Gates held the positions of chairman, 
+            chief executive officer (CEO), president, and chief software architect, 
+            while also being its largest individual shareholder until May 2014.[a] 
+            He was a pioneer of the microcomputer revolution of the 1970s and 1980s. 
+        </div>
+    </div>
+</div>
+
