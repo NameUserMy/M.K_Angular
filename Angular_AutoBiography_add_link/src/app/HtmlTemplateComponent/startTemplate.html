@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="add-info">
+        <div>
+            <input required="required" type="text" placeholder="Enter quotation" [(ngModel)]="quotation" />
+            <span (click)="AddQuotation()" class="add-quotation"></span>
+        </div>
+        <div>
+           <input required="required" type="text" placeholder="Enter Link"  [(ngModel)]="link" />
+           <input required="required" type="text" placeholder="Enter Link name" [(ngModel)]="nameLink" /> 
+           <span (click)="AddLink()" class="add-quotation"></span>
+        </div>
+        
+    </div>
+    <div id="infoMain">
+        <quotation [quotations]="quotations" ></quotation>
+        <biography></biography>
+        <links [linkModels]="linkModels"></links>
+    </div>
+    <div class="biograpyC">
+        <div>
+            Уильям Генри Гейтс III (родился 28 октября 1955 года) — американский бизнес-магнат, 
+            наиболее известный тем, что стал соучредителем компании-разработчика программного обеспечения Microsoft 
+            вместе со своим другом детства Полом Алленом . 
+            За время своей карьеры в Microsoft Гейтс занимал должности председателя, 
+            главного исполнительного директора (CEO), президента и главного архитектора программного обеспечения , 
+            а также был ее крупнейшим индивидуальным акционером до мая 2014 года. 
+            ​​Он был пионером микрокомпьютерной революции 1970-х и 1980-х годов. 
+        </div>
+    </div>
+</div>
+
