@@ -1,0 +1,13 @@
+
+
+
+a{
+text-decoration: none;
+text-shadow: 1px 1px 2px grey;
+font-size: 1.2em;
+color:black ;
+}
+dl{
+    margin: 20px;
+    text-align: left;
+}
