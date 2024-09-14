@@ -1,0 +1,25 @@
+<div class="gallery-body">
+
+<div id="detailsPictures">
+    <div About [backGround]="choicePreview" class="aboutPicture"  style="background-image: url({{choicePreview}})">
+    <div id="details">
+      
+      <div id="description">
+        {{urlPicture.at(id).Description}}
+      </div>
+      <p>{{urlPicture.at(id).Author}}</p>
+      <p>{{urlPicture.at(id).Title}}</p>
+      <p>{{urlPicture.at(id).Year}} </p>
+    </div>
+    
+    </div>
+</div>
+<div id="buttonLeft"></div>
+<div id="preview">
+    <div *ngFor="let links of urlPicture;" (click)="Chice(links.Url,links.Id)" style="background-image: url({{links.Url}});"  class="picture">
+    </div>
+</div>
+<div id="buttonRight"></div>
+
+
+</div>
