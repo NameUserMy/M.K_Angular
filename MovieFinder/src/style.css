@@ -1,0 +1,58 @@
+@import url(./app/css/card.css);
+@import url(./app/css/base.css);
+
+html,body{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+
+    background-image: url(./assets/movie-background-body.jpg);
+    
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: dimgrey;
+    margin: 0;
+}
+
+#mein{
+    display: grid;
+    grid-template-areas: 'header' 'section';
+    grid-template-rows:.1fr 1fr;
+    row-gap:5%;
+    width: 60%;
+    height: 70%;
+    /* border:1px black solid; */
+    margin: auto;
+}
+
+
+.logo{
+    
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.25);
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+
+#header{
+    display: grid;
+    grid-template-columns: .2fr .1fr 1fr;
+    padding: 1%;
+    column-gap: 2%;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+   
+    border: 2px  rgba(255,255,255,0.25) solid;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.5);
+
+    box-shadow: 5px 5px 3px black;
+}
+
+#section{
+    grid-area: section;
+    align-content: center;
+
+}
