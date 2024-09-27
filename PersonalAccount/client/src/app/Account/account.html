@@ -1,0 +1,14 @@
+<div class="account">
+    <div class="setting" (click)="Settings()">&#9881;</div>
+    <div class="grid-position greetings" >
+        <h1 style="user-select: none;">Hello: {{greetings}}</h1>
+    </div>
+    <input [(ngModel)]="user.Login"    disabled="{{inputStatus}}"   #login="ngModel"    name="login"       required class="grid-position"  placeholder="Enter loggin"  />
+    <input [(ngModel)]="user.Pass"     disabled="{{inputStatus}}"   #pass="ngModel"     name="password"    required class="grid-position" type="text" placeholder="Enter password" />
+    <input [(ngModel)]="user.Name"     disabled="{{inputStatus}}"   #name="ngModel"     name="name"        required class="grid-position" type="text" placeholder="Enter name" />
+    <input [(ngModel)]="user.LastName" disabled="{{inputStatus}}"  #lastName="ngModel" name="lastName"    required class="grid-position" type="text" placeholder="Enter last name" />
+    <button [disabled]="StateButton(login,pass,name,lastName)"  (click)="send()" class="button">Confirm</button>
+    <a routerLink="/"><button class="button">Logout</button></a>
+
+</div>
+

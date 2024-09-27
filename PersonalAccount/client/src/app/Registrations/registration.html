@@ -1,0 +1,10 @@
+<div class="reg">
+    <input [(ngModel)]="user.Login"     #login="ngModel"    name="login"       required class="grid-position"  placeholder="Enter loggin"  />
+    <input [(ngModel)]="user.Pass"      #pass="ngModel"     name="password"    required class="grid-position" type="password" placeholder="Enter password" />
+    <input [(ngModel)]="confirmPass"    #passRepeat="ngModel"                  required class="grid-position" type="password" placeholder="Confirm password" />
+    <input [(ngModel)]="user.Name"      #name="ngModel"     name="name"        required class="grid-position" type="text" placeholder="Enter name" />
+    <input [(ngModel)]="user.LastName"  #lastName="ngModel" name="lastName"    required class="grid-position" type="text" placeholder="Enter last name" />
+    <a routerLink="/"><button class="button">Home</button></a>
+    <button   [disabled]="login.invalid || pass.invalid || passRepeat.invalid || name.invalid || lastName.invalid"  (click)="Send()" class="button">Submit</button>
+</div>
+

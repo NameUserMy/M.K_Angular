@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "PersonalAccount_WebAPI.Controllers.AccountController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Account",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Account.BLL.DTO.UserDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "login",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalAccount_WebAPI.Controllers.AccountController",
+    "Method": "GetUser",
+    "RelativePath": "api/Account/{login}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Account.BLL.DTO.UserDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalAccount_WebAPI.Controllers.LogginController",
+    "Method": "Loggin",
+    "RelativePath": "api/Loggin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Account.BLL.DTO.LogginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalAccount_WebAPI.Controllers.RegistrationsController",
+    "Method": "Registration",
+    "RelativePath": "api/Registrations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Account.BLL.DTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

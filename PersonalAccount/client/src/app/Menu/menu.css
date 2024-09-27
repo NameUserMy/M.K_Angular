@@ -1,0 +1,33 @@
+.form{
+
+    box-shadow: 1px 1px 2px rgb(32, 31, 31);
+    border-radius:5px;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    align-content: center;
+    background-color: rgba(61, 61, 61, 0.904);
+    
+
+}
+.button{
+
+    margin: 1%;
+    padding: 5%;
+    border-radius:10px;
+    background-color: dimgrey;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px dimgrey;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 500ms;
+
+}
+
+.button:hover{
+
+    color: rgb(144, 141, 141);
+}

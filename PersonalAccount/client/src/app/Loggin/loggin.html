@@ -1,0 +1,6 @@
+<div class="form">
+    <input [(ngModel)]="loggin.Login" #login="ngModel" name="login"    class="grid-position" type="text" placeholder="Enter loggin" required>
+    <input [(ngModel)]="loggin.Pass"  #pass="ngModel"  name="password" class="grid-position" type="password" placeholder="Enter password" required>
+    <a routerLink="/"><button class="button">Home</button></a>
+    <button [disabled]="login.invalid || pass.invalid" (click)="Send()" class="button">Enter</button>
+</div>

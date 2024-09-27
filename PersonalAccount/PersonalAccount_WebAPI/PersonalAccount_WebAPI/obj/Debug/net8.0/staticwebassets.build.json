@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oXbJ4cZw6CIa+jQ3xoLcb4u2/xH1q8/uYOG+C/WmaeA=",
+  "Source": "PersonalAccount_WebAPI",
+  "BasePath": "_content/PersonalAccount_WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

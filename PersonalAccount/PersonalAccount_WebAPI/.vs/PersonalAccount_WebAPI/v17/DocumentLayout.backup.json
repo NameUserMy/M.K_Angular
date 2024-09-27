@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B761E2E5-0152-4D2D-8113-FFFE9B9E08F9}|PersonalAccount_WebAPI\\PersonalAccount_WebAPI.csproj|e:\\kashag\\programming\\aspcore_ajax\\personalaccount_webapi\\personalaccount_webapi\\controllers\\loggincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B761E2E5-0152-4D2D-8113-FFFE9B9E08F9}|PersonalAccount_WebAPI\\PersonalAccount_WebAPI.csproj|solutionrelative:personalaccount_webapi\\controllers\\loggincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD1CC17-6716-4DF5-8F50-2B1C8A918EA7}|Account.BLL\\Account.BLL.csproj|e:\\kashag\\programming\\aspcore_ajax\\personalaccount_webapi\\account.bll\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD1CC17-6716-4DF5-8F50-2B1C8A918EA7}|Account.BLL\\Account.BLL.csproj|solutionrelative:account.bll\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203C0B1F-1B51-4098-8191-84F0577C6845}|PersonalAccount_DAL\\PersonalAccount_DAL.csproj|e:\\kashag\\programming\\aspcore_ajax\\personalaccount_webapi\\personalaccount_dal\\repository\\logginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203C0B1F-1B51-4098-8191-84F0577C6845}|PersonalAccount_DAL\\PersonalAccount_DAL.csproj|solutionrelative:personalaccount_dal\\repository\\logginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B761E2E5-0152-4D2D-8113-FFFE9B9E08F9}|PersonalAccount_WebAPI\\PersonalAccount_WebAPI.csproj|e:\\kashag\\programming\\aspcore_ajax\\personalaccount_webapi\\personalaccount_webapi\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B761E2E5-0152-4D2D-8113-FFFE9B9E08F9}|PersonalAccount_WebAPI\\PersonalAccount_WebAPI.csproj|solutionrelative:personalaccount_webapi\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogginController.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_WebAPI\\Controllers\\LogginController.cs",
+              "RelativeDocumentMoniker": "PersonalAccount_WebAPI\\Controllers\\LogginController.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_WebAPI\\Controllers\\LogginController.cs",
+              "RelativeToolTip": "PersonalAccount_WebAPI\\Controllers\\LogginController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:06:24.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogginService.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\Account.BLL\\Services\\LogginService.cs",
+              "RelativeDocumentMoniker": "Account.BLL\\Services\\LogginService.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\Account.BLL\\Services\\LogginService.cs",
+              "RelativeToolTip": "Account.BLL\\Services\\LogginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:54:54.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogginRepository.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_DAL\\Repository\\LogginRepository.cs",
+              "RelativeDocumentMoniker": "PersonalAccount_DAL\\Repository\\LogginRepository.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_DAL\\Repository\\LogginRepository.cs",
+              "RelativeToolTip": "PersonalAccount_DAL\\Repository\\LogginRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:54:06.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_WebAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "PersonalAccount_WebAPI\\Controllers\\RegistrationsController.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\PersonalAccount_WebAPI\\PersonalAccount_WebAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "PersonalAccount_WebAPI\\Controllers\\RegistrationsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:46:05.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
